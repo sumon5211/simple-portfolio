@@ -5,17 +5,15 @@ body {
     margin: 0;
 }
 h1{
-    font-size: 42px;
+    font-size: 50px;
 }
 h3{
-    font-size: 28px;
+    font-size: 28spx;
 }
 .primary-color{
     color: tomato;
 }
-.font-900 {
-    font-weight: 900;
-}
+
 .flexible 
 {
     display: flex;
@@ -26,11 +24,25 @@ section {
 .hero {
     background: url(images/top-banner.png) no-repeat;
 }
-.half-width {
-    width: 46%;
+.w-60 {
+    width: 60%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.w-40 {
+    width: 40%;
     padding-left: 2%;
     padding-right: 2%;
 }
 .img-100 {
     width: 100%;
+}
+.btn {
+    background-image: linear-gradient(to right, tomato, #f77e1c);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 35px;
+    display: inline-block;
 }
