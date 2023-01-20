@@ -1,3 +1,36 @@
 body {
     font-family: 'Poppins', sans-serif;
+    color: #292929;
+    line-height: 28px;
+    margin: 0;
+}
+h1{
+    font-size: 42px;
+}
+h3{
+    font-size: 28px;
+}
+.primary-color{
+    color: tomato;
+}
+.font-900 {
+    font-weight: 900;
+}
+.flexible 
+{
+    display: flex;
+}
+section {
+    padding: 60px 5%;
+}
+.hero {
+    background: url(images/top-banner.png) no-repeat;
+}
+.half-width {
+    width: 46%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.img-100 {
+    width: 100%;
 }
