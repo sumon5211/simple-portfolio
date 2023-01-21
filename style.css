@@ -7,8 +7,8 @@ body {
 h1{
     font-size: 50px;
 }
-h3{
-    font-size: 28spx;
+h2{
+    font-size: 36px;
 }
 .primary-color{
     color: tomato;
@@ -34,6 +34,11 @@ section {
     padding-left: 2%;
     padding-right: 2%;
 }
+.w-50 {
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
 .img-100 {
     width: 100%;
 }
@@ -45,4 +50,46 @@ section {
     text-decoration: none;
     margin-top: 35px;
     display: inline-block;
+}
+.rightColumn {
+    margin-left: 10Px;
+    margin-right: 0px;
+}
+.leftColumn {
+    margin-left: 0Px;
+    margin-right: 10px;
+}
+.experienceColumn {
+    padding: 0px;
+}
+.dreambig {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.rightColumn {
+    padding: 40px 15px 35px 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
+                -webkit-box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
+                -moz-box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
+}
+.leftColumn {
+    padding: 40px 15px 35px 25px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, rgb(204, 248, 8));
+    border-image-slice: 1;
+    box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
+                -webkit-box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
+                -moz-box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
+}
+footer h3 {
+    text-align: center;
 }
