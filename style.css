@@ -6,9 +6,11 @@ body {
 }
 h1{
     font-size: 50px;
+    line-height: 58px;
 }
 h2{
     font-size: 36px;
+    line-height: 42px;
 }
 .primary-color{
     color: tomato;
@@ -52,12 +54,12 @@ section {
     display: inline-block;
 }
 .rightColumn {
-    margin-left: 10Px;
+    margin-left: 20Px;
     margin-right: 0px;
 }
 .leftColumn {
     margin-left: 0Px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .experienceColumn {
     padding: 0px;
@@ -89,7 +91,7 @@ section {
     box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
                 -webkit-box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
                 -moz-box-shadow: 3px 1px 9px 5px rgba(0,0,0,0.22);
-}
+ }
 footer h3 {
     text-align: center;
 }
